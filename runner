@@ -1,0 +1,6 @@
+#!/bin/bash
+touch  ./mike
+echo "Done"
+
+gulp  --cwd "/opt/pocketbase/pb_hooks" --gulpfile "/opt/pocketbase/pb_hooks/gulpfile.js" minifyImages
+exit 0
