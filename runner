@@ -1,6 +1,5 @@
 #!/bin/bash
-touch  ./mike
-echo "Done"
+echo "Runner"
 
-gulp  --cwd "/opt/pocketbase/pb_hooks" --gulpfile "/opt/pocketbase/pb_hooks/gulpfile.js" minifyImages
+gulp  --cwd "/opt/pocketbase/pb_hooks" --gulpfile "/opt/pocketbase/pb_hooks/gulpfile.mjs" processFile --filename $1
 exit 0
