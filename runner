@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Runner"
-
-gulp  --cwd "/opt/pocketbase/pb_hooks" --gulpfile "/opt/pocketbase/pb_hooks/gulpfile.mjs" processFile --filename $1
+echo "runner"
+echo $1
+gulp  --cwd "/opt/pocketbase/pb_hooks" --gulpfile "/opt/pocketbase/pb_hooks/gulpfile.mjs" $1
 exit 0
